@@ -176,6 +176,7 @@ body{
     justify-content: space-around;
     margin-bottom: 20px;
     padding-bottom: 10px;
+    transition: transform 450ms;
     position: relative;
 }
 .row-title::after {
@@ -192,6 +193,7 @@ body{
     text-decoration: none;
 }
 .row-title a:hover{
+    color : white;
     transform: scale(1.1);
 }
 
